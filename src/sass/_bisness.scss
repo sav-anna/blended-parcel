@@ -1,0 +1,29 @@
+/* Business cases section*/
+.business-section {
+   padding: 50px 0;
+}
+
+.business-tagline {
+   text-align: center;
+   margin-bottom: 15px;
+}
+
+.business-title {
+   text-align: center;
+   margin-bottom: 34px;
+}
+
+.business-descr {
+   text-align: center;
+   margin-bottom: 39px;
+}
+
+.business-list {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 8px;
+}
+
+.business-item {
+   flex-basis: calc((100% - 24px) / 4);
+}
