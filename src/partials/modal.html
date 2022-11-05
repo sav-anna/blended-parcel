@@ -1,74 +1,89 @@
-    <!-- Modal window -->
-    <div class="backdrop is-hidden" data-modal>
-        <div class="modal-window">
-          <!-- <button class="modal-btn" type="button" data-modal-close>
-            <svg class="modal-svg" width="20" height="20">
-              <use href="./images/symbol-defs.svg#icon-close-black"></use>
-            </svg>
-        </button> -->
-          <!-- Form -->
-          <form class="form" name="contact-form" autocomplete="off">
-            <p class="form-title">Order a callback</p>
-            <div class="form-part">
-              <div class="form-input">
-                <input
-                  class="input"
-                  id="personal-name"
-                  type="text"
-                  name="personal-name"
-                  placeholder=" "
-                  minlength="6"
-                  maxlength="20"
-                  pattern="^[A-Za-z]+\s[A-Za-z]+$"
-                  title="Enter first and last name, only Latin letters"
-                  required />
-                <label class="form-label" for="personal-name">Name</label>
-                <svg class="input-icon" width="18" height="18">
-                  <use href="./images/symbol-defs.svg#icon-person-black"></use>
-                </svg>
-              </div>
-              <div class="form-input">
-                <input
-                  class="input"
-                  id="personal-phone"
-                  type="tel"
-                  name="personal-phone"
-                  placeholder=" "
-                  pattern="^\+[0-9]{12}"
-                  title="+380..."
-                  required />
-                <label class="form-label" for="personal-phone">Phone</label>
-                <svg class="input-icon" width="18" height="18">
-                  <use href="./images/symbol-defs.svg#icon-phone-black"></use>
-                </svg>
-              </div>
-              <div class="form-input">
-                <input class="input" id="personal-mail" type="email" name="personal-mail" placeholder=" " required />
-                <label class="form-label" for="personal-mail">Email</label>
-                <svg class="input-icon" width="18" height="18">
-                  <use href="./images/symbol-defs.svg#icon-email-black"></use>
-                </svg>
-              </div>
-            </div>
-            <div class="form-textarea">
-              <label for="person-comment">Сomment</label>
-              <textarea
-                class="textarea input"
-                id="person-comment"
-                name="person-comment"
-                placeholder="Enter a comment..."></textarea>
-            </div>
-            <div class="form-checkbox">
-              <input class="checkbox visually-hidden" id="terms-checkbox" type="checkbox" name="terms-checkbox" />
-              <svg class="check-icon" width="16" height="15">
-                <use href="./images/symbol-defs.svg#icon-check"></use>
-              </svg>
-              <label class="checkbox-label" for="terms-checkbox">
-                I agree with the mailing and accept it
-                <a class="terms-text" href="#">Terms of the contract</a>
-              </label>
-            </div>
-            <button class="btn btn-send" type="submit">Send</button>
-          </form>
+<!-- Modal window -->
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal-window">
+    <button class="modal-btn" type="button" data-modal-close>
+      <svg class="modal-svg" width="20" height="20">
+        <use href="./images/symbol-defs.svg#icon-close-black"></use>
+      </svg>
+    </button>
+    <!-- Form -->
+    <form class="form" name="contact-form" autocomplete="off">
+      <p class="form-title">Order a callback</p>
+      <div class="form-part">
+        <div class="form-input">
+          <input
+            class="input"
+            id="personal-name"
+            type="text"
+            name="personal-name"
+            placeholder=" "
+            minlength="6"
+            maxlength="20"
+            pattern="^[A-Za-z]+\s[A-Za-z]+$"
+            title="Enter first and last name, only Latin letters"
+            required
+          />
+          <label class="form-label" for="personal-name">Name</label>
+          <svg class="input-icon" width="18" height="18">
+            <use href="./images/symbol-defs.svg#icon-person-black"></use>
+          </svg>
+        </div>
+        <div class="form-input">
+          <input
+            class="input"
+            id="personal-phone"
+            type="tel"
+            name="personal-phone"
+            placeholder=" "
+            pattern="^\+[0-9]{12}"
+            title="+380..."
+            required
+          />
+          <label class="form-label" for="personal-phone">Phone</label>
+          <svg class="input-icon" width="18" height="18">
+            <use href="./images/symbol-defs.svg#icon-phone-black"></use>
+          </svg>
+        </div>
+        <div class="form-input">
+          <input
+            class="input"
+            id="personal-mail"
+            type="email"
+            name="personal-mail"
+            placeholder=" "
+            required
+          />
+          <label class="form-label" for="personal-mail">Email</label>
+          <svg class="input-icon" width="18" height="18">
+            <use href="./images/symbol-defs.svg#icon-email-black"></use>
+          </svg>
         </div>
       </div>
+      <div class="form-textarea">
+        <label for="person-comment">Сomment</label>
+        <textarea
+          class="textarea input"
+          id="person-comment"
+          name="person-comment"
+          placeholder="Enter a comment..."
+        ></textarea>
+      </div>
+      <div class="form-checkbox">
+        <input
+          class="checkbox visually-hidden"
+          id="terms-checkbox"
+          type="checkbox"
+          name="terms-checkbox"
+        />
+        <svg class="check-icon" width="16" height="15">
+          <use href="./images/symbol-defs.svg#icon-check"></use>
+        </svg>
+        <label class="checkbox-label" for="terms-checkbox">
+          I agree with the mailing and accept it
+          <a class="terms-text" href="#">Terms of the contract</a>
+        </label>
+      </div>
+      <button class="btn btn-send" type="submit">Send</button>
+    </form>
+  </div>
+</div>
