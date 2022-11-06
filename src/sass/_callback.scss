@@ -36,12 +36,16 @@
   line-height: 1.5;
 }
 
-.callback__input:nth-child(3) {
-  margin-bottom: 36px;
+.callback__input {
+  &:nth-child(3) {
+    margin-bottom: 36px;
+  }
 }
 
-.callback__input:nth-child(5) {
-  margin-bottom: 60px;
+.callback__input {
+  &:nth-child(5) {
+    margin-bottom: 60px;
+  }
 }
 
 .callback__btn {
@@ -57,7 +61,10 @@
   padding: 10px 30px;
   transition: background-color 250ms linear;
 }
-.callback__btn:hover,
-.callback__btn:focus {
-  background-color: #259b42;
+
+.callback__btn {
+  &:focus,
+  &:hover {
+    background-color: #259b42;
+  }
 }
