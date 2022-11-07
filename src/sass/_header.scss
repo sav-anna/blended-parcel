@@ -1,0 +1,122 @@
+.header-hero {
+  background-image: url(../images/backgroundHero.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container.hero {
+  padding-top: 255px;
+  padding-bottom: 284px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero__title {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--hero-color);
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.hero__description {
+  font-size: 22px;
+  line-height: 1.68;
+  text-align: center;
+  color: var(--hero-color);
+  margin-bottom: 25px;
+}
+
+.btn {
+  background: var(--accent-color);
+  color: var(--main-text-color);
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.56;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px;
+  transition: background-color 250ms linear;
+
+  &:hover,
+  &:focus {
+    background-color: #259b42;
+  }
+}
+
+.hero__button {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  padding-top: 11px;
+  font-size: 35px;
+  line-height: 1.2;
+}
+
+.logo__icon {
+  margin-right: 10px;
+  fill: var(--accent-color);
+}
+
+.logo__accent {
+  margin-right: 11px;
+  color: var(--accent-color);
+}
+
+.header__nav {
+  margin-left: auto;
+}
+
+.logo__link {
+  display: flex;
+  align-items: center;
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+.header__nav-link {
+  color: var(--main-text-color);
+  text-decoration: none;
+  display: block;
+  transition: color 250ms linear;
+
+  &:hover {
+    color: var(--accent-color);
+  }
+}
+
+.header__nav-list {
+  display: flex;
+  font-size: 18px;
+  line-height: 1.6;
+  padding-top: 21px;
+  & li:not(:last-child) {
+    margin-right: 38px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
