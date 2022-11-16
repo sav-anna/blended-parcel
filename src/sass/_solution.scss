@@ -1,40 +1,41 @@
-/*  Solutions section*/
-.solutions-container {
+.solutions {
+  background-color: var(--accent-color);
+
+  &__container {
     display: flex;
     justify-content: center;
     padding-left: 0;
   }
-  .solutions-box {
+  &__box {
     display: block;
     padding-top: 84px;
     padding-left: 30px;
     padding-bottom: 84px;
   }
-  .solutions-tagline {
+  &__tagline {
     margin-bottom: 5px;
   }
-  .solutions-title {
+  &__title {
     margin-bottom: 26px;
   }
-  .solutions-text {
+  &__text {
     width: 606px;
     margin-bottom: 17px;
   }
-  .solutions {
-    background-color: var(--accent-color);
-  }
-  .solutions-tagline,
-  .solutions-title,
-  .solutions-text {
-    color: var(--main-text-color);
-  }
-  
-  .btn-solutions {
-    padding: 11px 27px 12px 42px;
-    border: 1px solid var(--main-text-color);
-    border-radius: 5px;
-    width: 167px;
-    height: 50px;
-    left: 710px;
-    top: 1369px;
-  }
+}
+
+.solutions__tagline,
+.solutions__title,
+.solutions__text {
+  color: var(--main-text-color);
+}
+
+.btn__solutions {
+  padding: 11px 27px 12px 42px;
+  border: 1px solid var(--main-text-color);
+  border-radius: 5px;
+  width: 167px;
+  height: 50px;
+  left: 710px;
+  top: 1369px;
+}
