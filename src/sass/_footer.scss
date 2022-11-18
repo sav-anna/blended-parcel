@@ -1,0 +1,30 @@
+.footer {
+    background-color: var(--primary-text-color);
+    padding: 20px 0;
+}
+
+.footer__words {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.57;
+    text-align: center;
+    color: var(--main-text-color);
+}
+
+.footer__list {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer__link {
+    fill: var(--main-text-color);
+    transition: fill 250ms linear;
+}
+
+.footer__link:hover,
+.footer__link:focus {
+    fill: var(--accent-color);
+}
